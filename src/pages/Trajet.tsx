@@ -81,7 +81,7 @@ export default function Trajet() {
           <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
             <div className="relative h-[500px] bg-gradient-to-br from-green-50 via-stone-50 to-amber-50">
               <img
-                src="https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                src="https://i.postimg.cc/fRnC2Sh5/carte.png"
                 alt="Carte topographique"
                 className="w-full h-full object-cover opacity-30"
               />
