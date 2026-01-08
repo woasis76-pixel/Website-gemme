@@ -76,7 +76,7 @@ export default function Activites() {
               key={activity.id}
               className="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:scale-[1.02] transition-all duration-300"
             >
-              <div className="md:flex">
+              <div className="md:flex md:items-stretch">
                 <div className="md:w-1/3">
                   <img
                     src={dayImages[index] || dayImages[0]}
