@@ -28,10 +28,10 @@ export default function Activites() {
 
   const dayImages = [
     'https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/1670045/pexels-photo-1670045.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/1051838/pexels-photo-1051838.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/3076516/pexels-photo-3076516.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://images.pexels.com/photos/8905102/pexels-photo-8905102.jpeg',
+    'https://images.pexels.com/photos/906097/pexels-photo-906097.jpeg',
+    'https://images.pexels.com/photos/5849992/pexels-photo-5849992.jpeg',
+    'https://images.pexels.com/photos/7585825/pexels-photo-7585825.jpeg',
   ];
 
   if (loading) {
@@ -107,7 +107,7 @@ export default function Activites() {
           <div className="grid md:grid-cols-3 gap-6 mt-8">
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
               <p className="text-amber-400 font-semibold mb-2">Hébergement</p>
-              <p className="text-stone-200 text-sm">4 nuits en refuge de montagne</p>
+              <p className="text-stone-200 text-sm">2 nuits au camping</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
               <p className="text-amber-400 font-semibold mb-2">Repas</p>
