@@ -46,7 +46,8 @@ export default function Accueil() {
           <div className="order-2 md:order-1">
             <h3 className="text-3xl font-serif text-stone-800 mb-6">En harmonie avec la terre</h3>
             <p className="text-lg text-stone-600 mb-4 leading-relaxed">
-              Depuis l’origine du monde, les roches magmatiques, sédimentaires et métamorphiques portent la mémoire vibrante de la terre. Notre retraite immersive vous invite à ressentir la force du feu, la patience des strates et l’alchimie des transformations. 
+              Depuis l'origine du monde, les roches magmatiques, sédimentaires et métamorphiques portent la mémoire vibrante de la terre. Notre retraite immersive vous invite à ressentir la force du feu, la patience des strates et l'alchimie des transformations. 
+            </p>
             <p className="text-lg text-stone-600 leading-relaxed">
               Durant cinq jours, apprenez à harmoniser vos énergies au contact de ces gardiennes du temps pour ancrer votre esprit. Intégrez cette stabilité millénaire dans votre quotidien et laissez la pierre guider votre propre métamorphose.
             </p>
