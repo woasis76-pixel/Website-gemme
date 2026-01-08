@@ -38,7 +38,7 @@ export default function Trajet() {
     <div className="min-h-screen bg-gradient-to-b from-stone-50 to-amber-50">
       <div className="relative h-80 overflow-hidden">
         <img
-          src="https://i.postimg.cc/fRnC2Sh5/carte.png"
+          src="https://images.pexels.com/photos/1670045/pexels-photo-1670045.jpeg?auto=compress&cs=tinysrgb&w=1920"
           alt="Trajet de randonnée"
           className="w-full h-full object-cover"
         />
@@ -81,7 +81,7 @@ export default function Trajet() {
           <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
             <div className="relative h-[500px] bg-gradient-to-br from-green-50 via-stone-50 to-amber-50">
               <img
-                src="https://i.postimg.cc/fRnC2Sh5/carte.png"
+                src="https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=1200"
                 alt="Carte topographique"
                 className="w-full h-full object-cover opacity-30"
               />
