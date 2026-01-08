@@ -72,7 +72,7 @@ export default function Contact() {
                 <div>
                   <h3 className="font-semibold text-stone-800 mb-1">Adresse</h3>
                   <p className="text-stone-600">Village de Saint-Pierre-des-Cristaux</p>
-                  <p className="text-stone-600">73000 Savoie, France</p>
+                  <p className="text-stone-600">09000 Ariège, France</p>
                 </div>
               </div>
 
