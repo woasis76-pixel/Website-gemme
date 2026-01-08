@@ -79,11 +79,11 @@ export default function Trajet() {
         <div className="mb-12">
           <h2 className="text-3xl font-serif text-stone-800 mb-8 text-center">Carte du Trajet</h2>
           <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
-            <div className="relative h-[500px] bg-gradient-to-br from-green-50 via-stone-50 to-amber-50">
+            <div className="relative h-[450px] md:h-[600px] bg-stone-100">
               <img
                 src="https://i.postimg.cc/DnmNz1pV/carte.png"
                 alt="Carte topographique"
-                className="w-full h-full object-contain opacity-30"
+                className="w-full h-full object-contain"
               />
 
               <svg className="absolute inset-0 w-full h-full" viewBox="0 0 800 500">
