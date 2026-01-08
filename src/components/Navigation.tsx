@@ -27,8 +27,8 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
               <span className="text-white text-xl font-bold">✧</span>
             </div>
             <div>
-              <h1 className="text-2xl font-serif text-stone-800">Lithothérapie Spirituelle</h1>
-              <p className="text-xs text-stone-600">Voyage intérieur & Harmonie</p>
+              <h1 className="text-2xl font-serif text-stone-800">Gemmelavie</h1>
+              <p className="text-xs text-stone-600">Voyage intérieure à l'écoute des pierres</p>
             </div>
           </div>
 
