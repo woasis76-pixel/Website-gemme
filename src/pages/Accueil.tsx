@@ -68,7 +68,7 @@ export default function Accueil() {
             </div>
             <h4 className="text-xl font-semibold text-stone-800 mb-3">Randonnées</h4>
             <p className="text-stone-600">
-              Explorez les sites énergétiques naturels où les cristaux se forment depuis des millénairesdddd
+              Explorez les sites énergétiques naturels où les cristaux se forment depuis des millénaires
             </p>
           </div>
 
