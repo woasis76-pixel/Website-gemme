@@ -46,10 +46,10 @@ export default function Accueil() {
           <div className="order-2 md:order-1">
             <h3 className="text-3xl font-serif text-stone-800 mb-6">L'Harmonie des Cristaux</h3>
             <p className="text-lg text-stone-600 mb-4 leading-relaxed">
-              Depuis la nuit des temps, les pierres précieuses et semi-précieuses sont reconnues pour leurs propriétés énergétiques exceptionnelles. Notre retraite de lithothérapie vous invite à découvrir ces trésors de la nature dans leur environnement originel.
-            </p>
+              Depuis l’origine du monde, les roches magmatiques, sédimentaires et métamorphiques portent la mémoire vibrante de la terre. Notre retraite immersive vous invite à ressentir la force du feu, la patience des strates et l’alchimie des transformations. 
             <p className="text-lg text-stone-600 leading-relaxed">
-              Au cours de cinq journées immersives, vous apprendrez à ressentir les vibrations subtiles des cristaux, à harmoniser vos chakras et à intégrer la sagesse millénaire des pierres dans votre vie quotidienne.
+              Durant cinq jours, apprenez à harmoniser vos énergies au contact de ces gardiennes du temps pour ancrer votre esprit. Intégrez cette stabilité millénaire dans votre quotidien et laissez la pierre guider votre propre métamorphose. Rejoignez-nous pour ce voyage sensoriel unique, au cœur de l'ossature brute de notre monde.
+            </p>
             </p>
           </div>
           <div className="order-1 md:order-2">
