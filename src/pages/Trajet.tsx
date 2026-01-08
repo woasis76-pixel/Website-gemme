@@ -4,33 +4,33 @@ export default function Trajet() {
   const waypoints = [
     {
       day: 1,
-      name: 'Point de départ - Refuge du Col',
-      altitude: '1200m',
-      description: 'Départ depuis le village de Saint-Pierre-des-Cristaux',
+      name: 'Camping Pont Lauguère',
+      altitude: '500m',
+      description: 'Installation au camping et découverte',
     },
     {
       day: 2,
-      name: 'Sources Sacrées',
-      altitude: '1450m',
-      description: 'Découverte des sources d\'eau pure et cristalline',
+      name: 'Randonnée depuis le camping vers le Lac de Pombie',
+      altitude: '2100m',
+      description: 'Randonnée ressourçante au col du pourtalet et libération émotionnelle',
     },
     {
       day: 3,
-      name: 'Plateau des Sept Couleurs',
-      altitude: '1850m',
-      description: 'Point culminant avec vue panoramique sur les montagnes',
+      name: 'Randonnée des roches sédimentaire puis arret au Camping Louvie Soubiron ',
+      altitude: '1550m',
+      description: 'Découverte du bien être associé aux roches sédimentaire',
     },
     {
       day: 4,
-      name: 'Grottes de Cristaux',
-      altitude: '1600m',
-      description: 'Exploration des grottes aux améthystes géantes',
+      name: 'Montée au plaa Auzu',
+      altitude: '1300m',
+      description: 'Point de vue magique et campement',
     },
     {
       day: 5,
-      name: 'Sommet Sacré - Retour',
-      altitude: '1900m',
-      description: 'Cérémonie finale avant la descente',
+      name: 'Redescente',
+      altitude: '1300m',
+      description: 'Cérémonie finale et fabrication des bracelets',
     },
   ];
 
@@ -123,12 +123,12 @@ export default function Trajet() {
           <div className="max-w-2xl mx-auto">
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-6">
               <MapPin className="text-amber-400 mx-auto mb-3" size={32} />
-              <p className="text-white text-lg mb-2">Village de Saint-Pierre-des-Cristaux</p>
-              <p className="text-stone-300 text-sm">Place de l'Église, 73000 Savoie</p>
+              <p className="text-white text-lg mb-2">Camping Pont Lauguère</p>
+              <p className="text-stone-300 text-sm">8 Rue de Lauguere, 64440 Laruns</p>
             </div>
             <p className="text-stone-300 mb-6">
-              Le rendez-vous est fixé à 8h00 le premier jour. Un parking gratuit est disponible à proximité.
-              Le trajet en voiture depuis Chambéry prend environ 45 minutes.
+              Le rendez-vous est fixé à 12h00 le premier jour. Un parking gratuit est disponible à proximité.
+              Le trajet en voiture depuis Toulouse prend environ 2 heures.
             </p>
             <button className="px-8 py-3 bg-gradient-to-r from-amber-600 to-yellow-700 text-white rounded-full font-semibold hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
               Obtenir l'itinéraire
