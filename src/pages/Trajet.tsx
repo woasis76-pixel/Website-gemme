@@ -78,55 +78,12 @@ export default function Trajet() {
 
         <div className="mb-12">
           <h2 className="text-3xl font-serif text-stone-800 mb-8 text-center">Carte du Trajet</h2>
-          <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
-            <div className="relative h-[450px] md:h-[600px] bg-stone-100">
-              <img
-                src="https://i.postimg.cc/DnmNz1pV/carte.png"
-                alt="Carte topographique"
-                className="w-full h-full object-contain"
-              />
-
-              <svg className="absolute inset-0 w-full h-full" viewBox="0 0 800 500">
-                <path
-                  d="M 100 400 Q 200 350, 250 300 T 400 200 T 550 150 T 700 100"
-                  stroke="#d97706"
-                  strokeWidth="4"
-                  fill="none"
-                  strokeDasharray="8,4"
-                  className="animate-pulse"
-                />
-
-                {[
-                  { x: 100, y: 400, day: 1 },
-                  { x: 250, y: 300, day: 2 },
-                  { x: 400, y: 200, day: 3 },
-                  { x: 550, y: 150, day: 4 },
-                  { x: 700, y: 100, day: 5 },
-                ].map((point) => (
-                  <g key={point.day}>
-                    <circle
-                      cx={point.x}
-                      cy={point.y}
-                      r="20"
-                      fill="white"
-                      stroke="#d97706"
-                      strokeWidth="3"
-                      className="drop-shadow-lg"
-                    />
-                    <text
-                      x={point.x}
-                      y={point.y + 5}
-                      textAnchor="middle"
-                      fill="#92400e"
-                      fontSize="16"
-                      fontWeight="bold"
-                    >
-                      {point.day}
-                    </text>
-                  </g>
-                ))}
-              </svg>
-            </div>
+          <div className="relative h-[450px] md:h-[600px]">
+            <img
+              src="https://i.postimg.cc/DnmNz1pV/carte.png"
+              alt="Carte topographique"
+              className="w-full h-full object-contain"
+            />
           </div>
         </div>
 
