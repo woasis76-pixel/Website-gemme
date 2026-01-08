@@ -77,14 +77,14 @@ export default function Activites() {
               className="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:scale-[1.02] transition-all duration-300"
             >
               <div className="md:flex">
-                <div className="md:w-1/4 flex items-center">
+                <div className="md:w-1/3">
                   <img
                     src={dayImages[index] || dayImages[0]}
                     alt={`Jour ${activity.day_number}`}
-                    className="w-full h-48 md:h-auto md:max-h-[200px] object-cover rounded-lg"
+                    className="w-full h-64 md:h-auto md:max-h-[250px] object-cover"
                   />
                 </div>
-                <div className="md:w-3/4 p-8">
+                <div className="md:w-2/3 p-8">
                   <div className="flex items-center justify-between mb-4">
                     <span className="inline-block px-4 py-2 bg-gradient-to-r from-amber-600 to-yellow-700 text-white rounded-full text-sm font-bold">
                       Jour {activity.day_number}
