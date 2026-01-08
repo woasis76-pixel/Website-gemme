@@ -76,12 +76,12 @@ export default function Activites() {
               key={activity.id}
               className="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:scale-[1.02] transition-all duration-300"
             >
-              <div className="md:flex">
-                <div className="md:w-1/3 self-stretch">
+              <div className="md:flex md:items-stretch">
+                <div className="md:w-1/3">
                   <img
                     src={dayImages[index] || dayImages[0]}
                     alt={`Jour ${activity.day_number}`}
-                    className="w-full h-64 md:h-full md:max-h-[250px] object-cover"
+                    className="w-full h-64 md:h-full object-cover"
                   />
                 </div>
                 <div className="md:w-2/3 p-8">
