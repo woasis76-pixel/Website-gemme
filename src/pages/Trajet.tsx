@@ -38,7 +38,7 @@ export default function Trajet() {
     <div className="min-h-screen bg-gradient-to-b from-stone-50 to-amber-50">
       <div className="relative h-80 overflow-hidden">
         <img
-          src="https://images.pexels.com/photos/1670045/pexels-photo-1670045.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          src="https://i.postimg.cc/fRnC2Sh5/carte.png"
           alt="Trajet de randonnée"
           className="w-full h-full object-cover"
         />
