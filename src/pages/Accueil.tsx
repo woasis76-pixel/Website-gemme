@@ -44,17 +44,16 @@ export default function Accueil() {
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
           <div className="order-2 md:order-1">
-            <h3 className="text-3xl font-serif text-stone-800 mb-6">L'Harmonie des Cristaux</h3>
+            <h3 className="text-3xl font-serif text-stone-800 mb-6">En harmonie avec la terre</h3>
             <p className="text-lg text-stone-600 mb-4 leading-relaxed">
               Depuis l’origine du monde, les roches magmatiques, sédimentaires et métamorphiques portent la mémoire vibrante de la terre. Notre retraite immersive vous invite à ressentir la force du feu, la patience des strates et l’alchimie des transformations. 
             <p className="text-lg text-stone-600 leading-relaxed">
-              Durant cinq jours, apprenez à harmoniser vos énergies au contact de ces gardiennes du temps pour ancrer votre esprit. Intégrez cette stabilité millénaire dans votre quotidien et laissez la pierre guider votre propre métamorphose. Rejoignez-nous pour ce voyage sensoriel unique, au cœur de l'ossature brute de notre monde.
-            </p>
+              Durant cinq jours, apprenez à harmoniser vos énergies au contact de ces gardiennes du temps pour ancrer votre esprit. Intégrez cette stabilité millénaire dans votre quotidien et laissez la pierre guider votre propre métamorphose.
             </p>
           </div>
           <div className="order-1 md:order-2">
             <img
-              src="https://images.pexels.com/photos/3076516/pexels-photo-3076516.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="https://images.pexels.com/photos/35574065/pexels-photo-35574065.jpeg"
               alt="Méditation avec cristaux"
               className="rounded-2xl shadow-2xl"
             />
@@ -66,7 +65,7 @@ export default function Accueil() {
             <div className="w-16 h-16 bg-gradient-to-br from-amber-600 to-yellow-700 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
               <Mountain className="text-white" size={32} />
             </div>
-            <h4 className="text-xl font-semibold text-stone-800 mb-3">Randonnées Sacrées</h4>
+            <h4 className="text-xl font-semibold text-stone-800 mb-3">Randonnées</h4>
             <p className="text-stone-600">
               Explorez les sites énergétiques naturels où les cristaux se forment depuis des millénaires
             </p>
@@ -78,7 +77,7 @@ export default function Accueil() {
             </div>
             <h4 className="text-xl font-semibold text-stone-800 mb-3">Ateliers Pratiques</h4>
             <p className="text-stone-600">
-              Apprenez les techniques de purification, rechargement et utilisation des pierres
+              Apprener à détecter les énergies et à pratiquer les exercices de relance spirituel
             </p>
           </div>
 
@@ -96,7 +95,7 @@ export default function Accueil() {
         <div className="bg-gradient-to-r from-amber-600 to-yellow-700 rounded-2xl p-12 text-center text-white shadow-2xl">
           <h3 className="text-3xl font-serif mb-4">Prêt à Commencer Votre Voyage ?</h3>
           <p className="text-xl mb-8 text-amber-50">
-            Rejoignez-nous pour une expérience inoubliable au cœur des montagnes sacrées
+            Rejoignez-nous pour une expérience inoubliable au cœur de la vallée d'Ossau
           </p>
           <button className="px-10 py-4 bg-white text-amber-700 rounded-full font-bold text-lg hover:bg-stone-50 transition-all duration-300 transform hover:scale-105 shadow-lg">
             Découvrir les Dates Disponibles
