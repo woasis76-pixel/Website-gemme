@@ -61,15 +61,15 @@ export default function Trajet() {
               <div className="grid md:grid-cols-3 gap-6 text-stone-700">
                 <div>
                   <p className="font-semibold mb-1">Distance totale</p>
-                  <p className="text-stone-600">Environ 45 km</p>
+                  <p className="text-stone-600">Environ 14 km</p>
                 </div>
                 <div>
                   <p className="font-semibold mb-1">Dénivelé</p>
-                  <p className="text-stone-600">+800m / -800m</p>
+                  <p className="text-stone-600">+2100m / -500m</p>
                 </div>
                 <div>
                   <p className="font-semibold mb-1">Niveau</p>
-                  <p className="text-stone-600">Moyen à difficile</p>
+                  <p className="text-stone-600">Moyen</p>
                 </div>
               </div>
             </div>
