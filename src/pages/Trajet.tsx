@@ -38,7 +38,7 @@ export default function Trajet() {
     <div className="min-h-screen bg-gradient-to-b from-stone-50 to-amber-50">
       <div className="relative h-80 overflow-hidden">
         <img
-          src="https://images.pexels.com/photos/1670045/pexels-photo-1670045.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          src="https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg"
           alt="Trajet de randonnée"
           className="w-full h-full object-cover"
         />
@@ -47,7 +47,7 @@ export default function Trajet() {
           <div>
             <Compass className="text-amber-400 mx-auto mb-4" size={48} />
             <h1 className="text-5xl md:text-6xl font-serif text-white mb-4">Notre Trajet</h1>
-            <p className="text-xl text-stone-100">Un parcours soigneusement conçu à travers les montagnes sacrées</p>
+            <p className="text-xl text-stone-100">Un parcours soigneusement conçu à travers les montagnes</p>
           </div>
         </div>
       </div>
