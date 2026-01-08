@@ -6,7 +6,7 @@ export default function Accueil() {
       <div className="relative h-[600px] overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.pexels.com/photos/1036857/pexels-photo-1036857.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://images.pexels.com/photos/7703319/pexels-photo-7703319.jpeg"
             alt="Cristaux et spiritualité"
             className="w-full h-full object-cover"
           />
